@@ -1,0 +1,11 @@
+.navbar{
+ul{list-style-type: none;
+    padding: 0;
+     background-color: darkslategray;
+display: flex;
+justify-content: center;
+}
+li a{  
+display: block;
+padding: 8px;
+text-color: gold;
