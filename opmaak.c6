@@ -9,3 +9,7 @@ li a{
 display: block;
 padding: 8px;
 text-color: gold;
+.perfume-card img {
+    widht 80px;
+    height 90px;
+}
