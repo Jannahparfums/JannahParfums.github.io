@@ -1,19 +1,17 @@
 .navbar {
-list-style-type: none;
-    padding: 0;
-    margin: 0%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
      background-color: darkslategray;
-display: flex;
-justify-content: center;
-display: block;
-padding: 8px;
-margin 0 10px;
-text-color: gold;
+     text-color: gold;
+
 }
 
-nav {
+.navbar a {
     background-color: gold;
     text-align: center;
+    text-decoration: none; /* <-- hier toevoegen */
     padding: 3%;
     border-color: black;
     border-style: solid;
@@ -21,7 +19,7 @@ border-radius: 5px;
     border-width: 3px;
   
 }
-nav a {
+.navbar a :hover {
     color: black
     margin: 0 15px;
 
@@ -140,4 +138,8 @@ nav a:hover {
 .terug-knop:hover {
     background-color: gold;
     color: black;
+}
+
+h1, h2, p {
+    color: gold;
 }
